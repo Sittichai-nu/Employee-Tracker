@@ -1,0 +1,30 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "a task with creating interfaces that make it easy for non-developers to view and interact with information stored in databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sittichai-nu/Employee-Tracker.git"
+  },
+  "author": "Nu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sittichai-nu/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/Sittichai-nu/Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "inquirer": "^7.1.0",
+    "module_name": "^1.0.0",
+    "mysql": "^2.18.1",
+    "open": "^7.0.3"
+  }
+}
